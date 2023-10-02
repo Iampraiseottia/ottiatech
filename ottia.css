@@ -1,0 +1,120 @@
+/*GENERAL ---------------------------------------------------------------------------------------------------------------*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(230, 222, 222);
+    width: 100%;
+}
+
+/*HEADER ---------------------------------------------------------------------------------------------------------------*/
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(187, 228, 241);
+    padding: 22px 20px 22px 40px;
+    border-bottom: 2px solid rgb(218, 182, 165);    
+    margin-bottom: 1px;
+}
+
+.header-middle{
+    width: 10%;
+    padding-right: 10px;
+}
+
+.header-img{
+    height: 79px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+}
+
+.header-middle{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+
+.header-sec ul li a{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: orange;
+    font-size: 25px;
+    padding-left: 19px;
+}
+
+.header-sec ul li{
+    list-style: none;
+}
+
+.header-sec ul li a:hover{
+    color: crimson;
+    font-size: 26px;
+}
+
+#header .header-middle .header-sec ul .current a{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#header .header-middle .header-sec ul .current a:hover{
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.header-right-img{
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.header-right-img1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    background: rgb(204, 187, 187);
+}
+
+.header-right{
+    display: flex;
+}
+
+/*SHOWCASE ------------------------------------------------------------------------------------------------------------------------------*/
+#showcase{
+    text-align: center;
+    background:url("../img/airplane3.jpg") no-repeat ;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 1px;
+}
+
+.showcase-h1{
+    color: gold;
+    padding-top: 90px;
+    font-size: 90px;
+}
+
+.marquee{
+    color: rgb(59, 59, 175);
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.showcase-p{
+    padding-top: 60px;
+    color: orangered;
+    font-size: 37px;
+}
